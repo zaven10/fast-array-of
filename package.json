@@ -1,0 +1,40 @@
+{
+  "name": "fast-array-of",
+  "version": "1.0.0",
+  "description": "Fast array with proxy indexing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaven10/fast-array-of.git"
+  },
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "npm run build && node dist/index.js",
+    "build": "npm run clean && npx tsc",
+    "clean": "shx rm -rf dist"
+  },
+  "tags": [
+    "fast array",
+    "arrayOf",
+    "array of objects",
+    "arrayOf js",
+    "arrayOf typescript"
+  ],
+  "keywords": [
+    "fast array",
+    "arrayOf",
+    "array of objects",
+    "arrayOf js",
+    "arrayOf typescript",
+    "array optimization js",
+    "proxy array"
+  ],
+  "author": "Zaven",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "shx": "^0.2.2",
+    "typescript": "^4.3.5"
+  }
+}
