@@ -1,7 +1,7 @@
 {
   "name": "fast-array-of",
-  "version": "1.0.0",
-  "description": "Fast array with proxy indexing",
+  "version": "2.0.0",
+  "description": "Fast array with proxy indexing and security",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -19,7 +19,14 @@
     "arrayOf",
     "array of objects",
     "arrayOf js",
-    "arrayOf typescript"
+    "arrayOf typescript",
+    "security",
+    "secure array",
+    "secure arrayOf",
+    "SHA-256",
+    "AES",
+    "encrypt",
+    "decrypt"
   ],
   "keywords": [
     "fast array",
@@ -28,13 +35,25 @@
     "arrayOf js",
     "arrayOf typescript",
     "array optimization js",
-    "proxy array"
+    "proxy array",
+    "security",
+    "secure array",
+    "secure arrayOf",
+    "SHA-256",
+    "AES",
+    "encrypt",
+    "decrypt"
   ],
   "author": "Zaven",
   "license": "MIT",
   "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^18.11.9",
     "prettier": "^2.3.2",
     "shx": "^0.2.2",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }

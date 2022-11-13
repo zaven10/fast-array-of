@@ -1,4 +1,6 @@
+import { decrypt } from './methods/decrypt'
 import { arrayOf } from './methods/arrayOf'
+
 import { IArrayOf } from './interfaces'
 
-export { arrayOf, IArrayOf }
+export { arrayOf, decrypt, IArrayOf }
